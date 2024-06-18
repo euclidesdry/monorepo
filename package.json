@@ -13,5 +13,9 @@
   "keywords": [],
   "author": "Euclides do Rosário <euclidesdry@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@4.3.0"
+  "packageManager": "yarn@4.3.0",
+  "devDependencies": {
+    "@monorepo/eslint-config": "*",
+    "typescript": "^5.2.2"
+  }
 }

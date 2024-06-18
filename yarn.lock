@@ -2240,6 +2240,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo/eslint-config@npm:*, @monorepo/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/eslint-config@workspace:packages/eslint-config"
+  languageName: unknown
+  linkType: soft
+
 "@monorepo/mobile@workspace:packages/mobile":
   version: 0.0.0-use.local
   resolution: "@monorepo/mobile@workspace:packages/mobile"
@@ -9301,6 +9307,9 @@ __metadata:
 "monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "monorepo@workspace:."
+  dependencies:
+    "@monorepo/eslint-config": "npm:*"
+    typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
 
