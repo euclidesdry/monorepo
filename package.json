@@ -1,0 +1,19 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "Learning more about how to set a monorepo environment",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Euclides do Rosário <euclidesdry@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.3.0"
+}
