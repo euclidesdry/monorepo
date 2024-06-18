@@ -5,10 +5,11 @@
   "main": "index.js",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/shared/*"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "keywords": [],
   "author": "Euclides do Rosário <euclidesdry@gmail.com>",
