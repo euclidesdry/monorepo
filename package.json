@@ -4,11 +4,9 @@
   "description": "Learning more about how to set a monorepo environment",
   "main": "index.js",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
